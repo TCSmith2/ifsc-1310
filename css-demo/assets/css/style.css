@@ -1,5 +1,71 @@
-/*Stylesheet for css demo */
+/*
+Stylesheet for css demo 
+*/
+
+/* ---------------Box Sizing----------------- */
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+  /* +++++++++++++++Global Styles++++++++++++++ */
+
+  /*
+  Get a color scheme
+  */
 
 body {
-    background-color:rgb(65, 59, 55);
+    font-family: 'Roboto Mono', monospace;
+}
+
+header.primary {
+background-color:red;
+text-align:center;
+color:#ffffff;
+
+/*Short (Top, Right, Bottom, Left*/
+padding: 40px 40px 20px 40px;
+
+/* Top/Bottom Right/Left */
+padding: 40px 40px;
+
+text-shadow: 2px 2px #000000;
+}
+header.primary h1 {
+    font-size:2.6rem;
+}
+
+header.primary h1 a{
+    color:#fff;
+    text-decoration:none;
+}
+
+header.primary h2{
+    font-size:1.4rem;
+    /* Top \ Left/Right / Bottom */
+    margin:20px auto 40px;
+}
+
+header.primary nav{}
+
+header.primary nav ul{
+    padding:0;
+}
+
+header.primary nav ul li{
+    list-style-type:none;
+}
+
+header.primary nav ul li a{
+    color:#ffffff;
+    text-decoration:none;
+    background-color:#000000;
+    padding: 8px 16px;
+    margin-bottom:1.8rem;
+    display: inline-block;
 }
