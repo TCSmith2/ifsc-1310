@@ -20,11 +20,26 @@ html {
       width: 65vw;
       margin:40px auto;
   }
-
   img{
       max-width:100%;
   }
-
+  .img-right{
+      float:right;
+      margin-left:20px;
+      border:1px solid #c0c0c0;
+      padding: 5px;
+  }
+  .img-left{
+    float:left;
+    margin-right:20px;
+    border:1px solid #c0c0c0;
+    padding: 5px;
+}
+.img-center{
+    display:block;
+    margin:20px auto;
+    border:2px solid #c0c0c0;
+}
   /* +++++++++++++++Global Styles++++++++++++++ */
 
 
@@ -188,6 +203,55 @@ aside[role="complementary"]{
      background-color: sandybrown;
      text-transform: uppercase;
 
+ }
+
+ #additional-elements a{
+     color:#3b638b;
+ }
+
+ #additional elements h3{
+     border-left: 8px solid #3b638b;
+     padding: 5px 10 px;
+ }
+
+ #additional-elements ol{
+     list-style-type: upper-roman;
+     list-style-position: outside;
+ }
+ dl{}
+ dt{font-weight: bold;}
+ dd{
+     margin-left: 0;
+ }
+ 
+ table{
+width:100%;
+border:1px solid #c0c0c0;
+border-collapse:collapse;
+ }
+
+ tr{}
+
+ tr:nth-child(even){
+     background-color: 0,0,0,.1;
+ }
+
+tr:hover{
+background-color:rgba(0, 0, 0, 0.397);
+}
+
+td:nth-child(2n), td:nth-child(3n){
+text-align:right;
+}
+
+ th{
+     background:#172635;
+     color:#fff;
+     width:33%;
+ }
+ td{
+     border: 1px solid #c0c0c0;
+     padding:5px;
  }
 
 @media screen and (max-width:600px){
