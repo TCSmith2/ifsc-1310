@@ -57,7 +57,6 @@ header.primary {
     text-align: center;
     color: #ffffff;
     text-shadow: 2px 2px #000000;
-    /* Shorhand T,R,B,L*/
     padding: 6em 2em;
     position: relative;
   }
@@ -242,7 +241,9 @@ section#content {
   
   /* ------------- Articles --------------- 
  */ 
- 
+ section#content {
+  padding: 1em 0;
+  }
   section#articles {
     background: #777171;
   }
@@ -279,7 +280,7 @@ section#content {
     border-radius: 10px;
     background: #fff;
   }
-  
+
   #articles article.post h2 {
     font-size: 1.5em;
     text-shadow: none;
